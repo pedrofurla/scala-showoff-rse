@@ -1,0 +1,2 @@
+dir=`dirname $0`
+java -Xmx2048m -server -XX:MaxPermSize=1024m -Xss4M -jar $dir/sbt-launch-0.13.0.jar "$@"
